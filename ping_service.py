@@ -19,7 +19,7 @@ def ping_api():
                 print(f"Failed to ping {url}: Status code {response.status_code}")
         except Exception as e:
             print(f"Error pinging {url}: {e}")
-        time.sleep(300)  # Ping every 5 minutes
+        time.sleep(1200)  # Ping every 20 minutes
 
 # Start pinging in a background thread
 def start_pinging():
